@@ -1,0 +1,34 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.btnadd {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+.btndel {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #ff5400 45%, #ff5400 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+.tab-pane .tab
+{
+    -fx-pref-width: 192;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-alignment: CENTER;
+     -fx-pref-width: 192;
+}
+.tab-header-background {
+    -fx-background-color:transparent
+}
+.tab-pane{
+    -fx-padding: 0 -1 -1 -1
+}
